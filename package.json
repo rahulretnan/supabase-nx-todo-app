@@ -2,7 +2,9 @@
   "name": "supabase-nx-todo-app",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "todo": "NODE_ENV=development nx run todo:serve"
+  },
   "private": true,
   "devDependencies": {
     "@babel/preset-react": "^7.14.5",
@@ -44,8 +46,16 @@
     "url-loader": "^4.1.1"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.19",
+    "@chakra-ui/react": "^2.6.1",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@supabase/supabase-js": "^2.21.0",
+    "framer-motion": "^10.12.10",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-icons": "^4.8.0",
     "tslib": "^2.3.0"
   }
 }
